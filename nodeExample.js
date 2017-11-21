@@ -1,5 +1,5 @@
 
-function cDown(0){
+function cDown(){
 		var str = '**********';
 
 	for(let i = 10; i > 0; i--){
@@ -8,3 +8,5 @@ function cDown(0){
 
 
 }
+
+cDown();
