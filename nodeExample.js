@@ -1,12 +1,13 @@
+var colors = require ('colors');
 
+
+var str = '**********';
 function cDown(){
-		var str = '**********';
+		
+		
+	console.log(colors.rainbow(str.slice(0,str.length - 1)));	
 
-	for(let i = 10; i > 0; i--){
-		console.log(str.slice(0,i));	
-	}
-
-
+	str = str.slice(0,str.length - 1);
 }
 
-cDown();
+setInterval(cDown,1000)
