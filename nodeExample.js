@@ -1,7 +1,7 @@
 var colors = require ('colors');
 
 
-var str = '**********';
+var str = '***********';
 function cDown(){
 		
 		
@@ -11,3 +11,4 @@ function cDown(){
 }
 
 setInterval(cDown,1000)
+
